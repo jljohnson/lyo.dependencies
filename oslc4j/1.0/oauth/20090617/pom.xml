@@ -1,16 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion> 
 	<groupId>org.eclipse.lyo.oslc4j.prereqs</groupId> 
-	<artifactId>oslc4j-prereqs-build</artifactId> 
-	<version>0.1.2-SNAPSHOT</version> 
+	<artifactId>oauth-prereqs-build</artifactId> 
+	<version>1.1</version> 
 	<packaging>pom</packaging> 
 	<modules> 
-                <module>commons-codec/1.4</module>
-		<module>jena-iri/0.9.2</module> 
-		<module>jena-core/2.7.1</module> 
-		<module>jena-arq/2.9.1</module> 
-		<module>jena-tdb/0.9.1</module> 
-		<module>wink/1.2.1</module>
-		<module>oauth/20090617</module>
+                <module>oauth</module>
+                <module>oauth-consumer</module>
+                <module>oauth-httpclient4</module>
 	</modules> 
 </project>
