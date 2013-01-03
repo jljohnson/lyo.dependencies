@@ -5,8 +5,11 @@
 	<version>1.1</version> 
 	<packaging>pom</packaging> 
 	<modules> 
-                <module>oauth</module>
-                <module>oauth-consumer</module>
-                <module>oauth-httpclient4</module>
+                <module>20090617/oauth</module>
+                <module>20090617/oauth-consumer</module>
+                <module>20090617/oauth-httpclient4</module>
+	<!--
+                <module>20090531/oauth-provider</module>
+	-->
 	</modules> 
 </project>

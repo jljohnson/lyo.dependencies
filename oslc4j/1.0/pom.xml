@@ -11,6 +11,6 @@
 		<module>jena-arq/2.9.1</module> 
 		<module>jena-tdb/0.9.1</module> 
 		<module>wink/1.2.1</module>
-		<module>oauth/20090617</module>
+		<module>oauth</module>
 	</modules> 
 </project>
